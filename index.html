@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gymTIM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="/" class="logo">
+                <div class="logo2"><img src="img/logo22svg.svg" alt=""></div>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#" class="nav__link">Главная</a></li>
+                    <li><a href="#abon" class="nav__link">Абонементы</a></li>
+                    <li><a href="#form" class="nav__link">Оставить заявку</a></li>
+                    <li><a href="#trainers" class="nav__link">Тренеры</a></li>
+                    <li><a href="#" class="nav__link">Контакты</a></li>
+                    <li><a href="#otz" class="nav__link">Отзывы</a></li>
+                </ul>
+            <script src="scroll"></script>
+            </nav>
+            <div class="contact-info">
+                <a href="tel:+74959559797" class="contact-info__phone">+7 (993)-222-18-43</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__content">
+                    <h1 class="hero__title">TIM fitness</h1>
+                    <p class="hero__text">Качайся вместе с нами</p>
+                    <button class="button button--primary" id="aboutBtn">О нас</button>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h1>ДОБРО ПОЖАЛОВАТЬ</h1>
+            <h2>в GYMTIM</h2>
+            <p>GYMTIM - СПОРТИВНЫЙ КЛУБ ВАШЕГО УНИВЕРСИТЕТА, ГДЕ ЭНЕРГИЯ, ЗДОРОВЬЕ И ДОСТИЖЕНИЯ СТАНОВЯТСЯ ЧАСТЬЮ ВАШЕЙ ПОСВЕДНЕВНОЙ ЖИЗНИ!</p>
+            <p>МЫ СОЗДАЛИ ПРОСТРАНСТВО, ГДЕ КАЖДЫЙ СТУДЕНТ, ПРЕПОДАВАТЕЛЬ ИЛИ СОТРУДНИК МОЖЕТ НАЙТИ ЧТО-ТО ДЛЯ СЕБЯ: ОТ ПРОФЕССИОНАЛЬНЫХ ТРЕНИРОВОК ДО ДРУЖЕСКОЙ АТМОСФЕРЫ И КОМАНДНОГО ДУХА.</p>
+            <h3>ЧТО МЫ ПРЕДЛАГАЕМ:</h3>
+            <ul>
+                <li>• СОВРЕМЕННОЕ ОБОРУДОВАНИЕ - ВСЁ, ЧТО НУЖНО ДЛЯ КАРДИО, СИЛОВЫХ И ФУНКЦИОНАЛЬНЫХ ТРЕНИРОВОК.</li>
+                <li>• ГРУППОВЫЕ ЗАНЯТИЯ - ЙОГА, ПИЛАТЕС, КРОССФИТ, ТАНЦЫ И МНОГОЕ ДРУГОЕ.</li>
+                <li>• ПЕРСОНАЛЬНЫЙ ПОДХОД - ТРЕНЕРЫ ПОМОГУТ ВАМ ДОСТИЧЬ ВАШИХ ЦЕЛЕЙ, БУДЬ ТО ПОВЫШЕНИЕ ВЫНОСИМОСТИ, УКРЕПЛЕНИЕ МЫШЦ ИЛИ ВОССТАНОВЛЕНИЕ ПОСЛЕ НАГРУЗОК.</li>
+                <li>• УДОБНОЕ РАСПОЛОЖЕНИЕ - НАШ ЗАЛ НАХОДИТСЯ ПРЯМО НА ТЕРРИТОРИИ УНИВЕРСИТЕТА, ЧТОБЫ СПОРТ СТАЛ ЧАСТЬЮ ВАШЕЙ СТУДЕНЧЕСКОЙ ЖИЗНИ.</li>
+            </ul>
+            <p>GYMTIM - ЭТО НЕ ПРОСТО СПОРТЗАЛ, ЭТО МЕСТО, ГДЕ ФОРМИРУЮТСЯ ЗДОРОВЫЕ ПРИВЫЧКИ, ДОСТИГАЮТСЯ ЦЕЛИ.</p>
+        </div>
+    </div>
+
+    <script src="POPup.js"></script>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__grid">
+                <div class="promo-container">
+                    <img src="/img/карусель6.png" alt="" class="promo-image" >
+                    <div class="font-gallery" id="trening">Бесплатная тренировка</div>
+                    <div class="button-container">
+                        <a href="#abon"><button class="cta-button">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="promo-container">
+                    <img src="/img/imgкарусель2.png" alt="кардио" class="promo-image" >
+                    <div class="font-gallery">Кардио тренировка</div>
+                    <div class="button-container">
+                        <button class="cta-button">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="promo-container">
+                    <img src="/img/imgкарусель3.png" alt="персональные тренировки" class="promo-image" >
+                    <div class="font-gallery">Групповые тренировки</div>
+                    <div class="button-container">
+                        <button class="cta-button">Подробнее</button>
+                    </div>
+                </div>
+                
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="test-drive">
+        <div class="container">
+            <h2 class="section-title" id="form">Оставьте заявку и запишитесь на тест-драйв клуба</h2>
+            <form class="test-drive__form">
+                <div class="form type=" text placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <button type="submit" class="button button--primary">Записаться</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="subscriptions">
+        <div class="container">
+            <h2 class="section-title" id="abon">Абонементы</h2>
+            <div class="subscriptions__grid">
+                <div class="subscription-card">
+                    <h3>Тест драйв</h3>
+                    <ul class="subscription-card__features">
+                        <li>Доступ к тренажерам</li>
+                        <li></li>
+                        <li>Персональная консультация</li>
+                    </ul>
+                    <div class="subscription-card__price">бесплатно</div>
+                    <a href="FREE.html"><button class="button button--primary">Выбрать</button></a>
+                </div>
+                <div class="subscription-card">
+                    <h3>Лайт</h3>
+                    <ul class="subscription-card__features">
+                        <li>Безлимитное посещение</li>
+                        <li>Все групповые программы</li>
+                        <li>Персональный тренер</li>
+                    </ul>
+                    <div class="subscription-card__price"> 2000 ₽</div>
+                    <a href="LITE.html"><button class="button button--primary">Выбрать</button></a>
+                </div>
+
+
+
+
+                <div class="subscription-card">
+                    <h3>Студенческий</h3>
+                    <ul class="subscription-card__features">
+                        <li>Доступ к тренажерам</li>
+                        <li>Групповые занятия</li>
+                        <li>Скидка 20%</li>
+                    </ul>
+                    <div class="subscription-card__price">1 790 ₽</div>
+                    <a href="STUD.html"><button class="button button--primary">Выбрать</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <main class="hero">
+        <div class="hero__left">
+            <h1 class="hero__title">GYMTIM. FITNESS</h1>
+            
+            <div class="hero__content">
+                <p class="hero__description">
+                    GYMtim. Fitness — технологичный фитнес-клуб с оплатой за месяц в Москве!
+                    Это не просто клубы, а сообщество единомышленников, для которых физическая активность — норма жизни. Кроме привычного фитнеса, мы устраиваем челленджи и
+                </p>
+
+                <div class="hero__navigation">
+                    <button class="nav-button nav-button--prev" aria-label="Предыдущий слайд">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <button class="nav-button nav-button--next" aria-label="Следующий слайд">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="hero__pagination" role="tablist">
+                    <button class="pagination-dot active" aria-label="Слайд 1" role="tab" aria-selected="true"></button>
+                    <button class="pagination-dot" aria-label="Слайд 2" role="tab" aria-selected="false"></button>
+                    <button class="pagination-dot" aria-label="Слайд 3" role="tab" aria-selected="false"></button>
+                    <button class="pagination-dot" aria-label="Слайд 4" role="tab" aria-selected="false"></button>
+                    <button class="pagination-dot" aria-label="Слайд 5" role="tab" aria-selected="false"></button>
+                    <button class="pagination-dot" aria-label="Слайд 6" role="tab" aria-selected="false"></button>
+                    <button class="pagination-dot" aria-label="Слайд 7" role="tab" aria-selected="false"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__right">
+            <img src="/img/с1.png" alt="Слайд 1" class="slider-image">
+            <img src="/img/с2.png" alt="Слайд 2" class="slider-image">
+            <img src="/img/с3.png" alt="Слайд 3" class="slider-image">
+            <img src="/img/с4.png" alt="Слайд 4" class="slider-image">
+            <img src="/img/с5.png" alt="Слайд 5" class="slider-image">
+            <img src="/img/с6.png" alt="Слайд 6" class="slider-image">
+            <img src="/img/с7.png" alt="Слайд 7" class="slider-image">
+        </div>
+    </main>
+    <script src="pop.js">
+        
+        
+    </script>
+
+    <main>
+        <h1>Тренеры</h1>
+        <div class="trainers-container" id="trainers">
+            <div class="trainer-card">
+                <div class="trainer-image">
+                    <img src="/img/тр1.svg" alt="Тренер 1">
+                </div>
+                <div class="trainer-info">
+                    <h2>Подопригора Юлия</h2>
+                    <p>Персональный тренер тренажерного зала и групповых программ</p>
+                </div>
+            </div>
+
+            <div class="trainer-card">
+                <div class="trainer-image">
+                    <img src="/img/тр2.svg" alt="Тренер 2">
+                </div>
+                <div class="trainer-info">
+                    <h2>СОЛОВЬЕВ ЮРИЙ</h2>
+                    <p>Персональный тренер тренажерного зала</p>
+                </div>
+            </div>
+
+            <div class="trainer-card">
+                <div class="trainer-image">
+                    <img src="/img/тр3.svg" alt="Тренер 3">
+                </div>
+                <div class="trainer-info">
+                    <h2>ТИТОВСКИЙ ИЛИЗАР</h2>
+                    <p>Персональный тренер тренажерного зала</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="trainer.js"></script>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title" id="otz">Отзывы</h2>
+            <div class="testimonials__slider">
+                <div class="testimonial-card">
+                    <p class="testimonial-card__text">Отличный клуб! Прекрасные тренеры и оборудование.</p>
+                    <p class="testimonial-card__author">Анна</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-card__text">Удобное расположение, чистота и профессионализм.</p>
+                    <p class="testimonial-card__author">Екатерина</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-card__text">Лучший фитнес-клуб в городе!</p>
+                    <p class="testimonial-card__author">Татьяна</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            <div class="faq__list">
+                <div class="faq__item">
+                    <div class="faq__question">Что входит в абонемент?</div>
+                    <div class="faq__answer">Подробное описание услуг, входящих в абонемент.</div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">Как отменить тренировку?</div>
+                    <div class="faq__answer">Информация об отмене тренировки.</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__info">
+                <h3>Контакты</h3>
+                <p>Телефон: +7 993 222 18 43</p>
+                <p>Email: info@gymfit.com</p>
+            </div>
+            <div class="footer__social">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
